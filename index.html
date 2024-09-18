@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GNME MINING GAME</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/roadmap.css">
+    <link rel="stylesheet" href="css/flowchart.css">
+    <meta name="description" content="GNME: A Web3 Telegram Mining Game on Solana. Play now and buy $GNME tokens.">
+    <meta name="keywords" content="GNME, Solana, Web3, Telegram, Mining Game, Cryptocurrency">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gnme-site.vercel.app/">
+    <meta property="og:title" content="GNME MINING GAME">
+    <meta property="og:description" content="GNME: A Web3 Telegram Mining Game on Solana. Play now and buy $GNME tokens.">
+    <meta property="og:image" content="https://i.imgur.com/hWr43Qo.jpeg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://gnme-site.vercel.app/">
+    <meta property="twitter:title" content="GNME MINING GAME">
+    <meta property="twitter:description" content="GNME: A Web3 Telegram Mining Game on Solana. Play now and buy $GNME tokens.">
+    <meta property="twitter:image" content="https://i.imgur.com/hWr43Qo.jpeg">
+
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="preload" href="js/script.js" as="script">
+    <link rel="icon" type="image/png" href="https://i.imgur.com/hWr43Qo.jpeg">
+    
+</head>
+<body>
+    <div class="scrolling-bar" role="marquee" aria-live="polite">
+        <div class="scrolling-text">••••• $GNME IS NOW LIVE & TRADEABLE ON JUPITER ••••• LIQUIDTY IS LOCKED IN METEORA POOLS TO EARN FEES ••••• </div>
+    </div>
+    <div id="sparks-container" aria-hidden="true"></div>
+    <div class="overlay" aria-hidden="true"></div>
+    <main>
+        <h1 class="logo-text">GNME</h1>
+        <h2 class="subtitle" style="margin-bottom: 10px;">A Web3 Telegram Mining Game on Solana</h2>
+        <div class="burnt-gnme-container" style="margin-top: 10px; margin-bottom: 10px;">
+            <div id="burnt-gnme-section" class="burnt-gnme-section">
+                <p>$GNME BURNT: <span id="burnt-amount">Loading...</span></p>
+            </div>
+        </div>
+        <div class="contract-section">
+            <div class="contract-address">
+                <span id="address">BaDjVCpABEVCdt4LT7ivuzA4izBwJCqnDjrLa8XBtT38</span>
+                <button id="copyAddress" class="copy-btn">Copy</button>
+            </div>
+        </div>
+        <div class="buttons-container">
+            <a href="whitepaper.html" class="btn whitepaper-btn">Whitepaper</a>
+
+            <a href="https://x.com/GNMEMINING" class="btn social-btn" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                <img src="./img/x.png" alt="Twitter logo">
+            </a>
+            <a href="https://dexscreener.com/solana/21bs22vkvdqx8ifw9uqvcbylsdssrwmj8nxp4sjqycb6" class="btn social-btn" target="_blank" rel="noopener noreferrer" aria-label="Dexscreener">
+                <img src="./img/dex.png" alt="Dexscreener logo">
+            </a>
+            <a href="https://t.me/GNMEONSOL" class="btn social-btn" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
+                <img src="./img/telegram.svg" alt="Telegram logo">
+            </a>
+            <a href="https://jup.ag/swap/SOL-BaDjVCpABEVCdt4LT7ivuzA4izBwJCqnDjrLa8XBtT38" class="btn social-btn" target="_blank" rel="noopener noreferrer" aria-label="Jupiter">
+                <img src="./img/jup.png" alt="Jupiter logo">
+            </a>
+            <a href="https://t.me/GNMEbot?start=REF4648713115COFM" class="btn play-btn">
+                Play Now
+            </a>
+
+        </div>
+        <div class="halving-button-container">
+            <a href="halving.html" id="halving-btn" class="btn halving-btn">WEN HALVING?</a>
+        
+        </div>
+        
+        <!-- Flowchart section moved before the roadmap -->
+        <div class="flowchart-container">
+            <h3 class="flowchart-title">HOW TO MINE $GNME</h3>
+            <div class="flowchart">
+                <div class="flowchart-item">
+                    <div class="flowchart-content">
+                        <span class="flowchart-emoji">🤖</span>
+                        <h4 class="flowchart-step">Step 1</h4>
+                        <p class="flowchart-text">Chat with the Telegram Bot</p>
+                    </div>
+                </div>
+                <div class="flowchart-item">
+                    <div class="flowchart-content">
+                        <span class="flowchart-emoji">💲</span>
+                        <h4 class="flowchart-step">Step 2</h4>
+                        <p class="flowchart-text">Buy Hashpower</p>
+                    </div>
+                </div>
+                <div class="flowchart-item">
+                    <div class="flowchart-content">
+                        <span class="flowchart-emoji">⛏️</span>
+                        <h4 class="flowchart-step">Step 3</h4>
+                        <p class="flowchart-text">Start Mining</p>
+                    </div>
+                </div>
+                <div class="flowchart-item">
+                    <div class="flowchart-content">
+                        <span class="flowchart-emoji">💰</span>
+                        <h4 class="flowchart-step">Step 4</h4>
+                        <p class="flowchart-text">Claim $GNME Rewards</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Roadmap section now comes after the flowchart -->
+        <div class="roadmap-container">
+            <h3 class="roadmap-title">Goalmap</h3>
+            <div class="roadmap">
+                <div class="roadmap-item completed">
+                    <div class="roadmap-content">
+                        <h4 class="roadmap-phase">Phase 1</h4>
+                        <p class="roadmap-text">Fair Launch</p>
+                        <span class="roadmap-badge completed">Completed</span>
+                    </div>
+                </div>
+                <div class="roadmap-item completed">
+                    <div class="roadmap-content">
+                        <h4 class="roadmap-phase">Phase 2</h4>
+                        <p class="roadmap-text">Mining Started</p>
+                        <span class="roadmap-badge completed">Completed</span>
+                    </div>
+                </div>
+                <div class="roadmap-item completed">
+                    <div class="roadmap-content">
+                        <h4 class="roadmap-phase">Goal #1</h4>
+                        <p class="roadmap-text">Reach 100 Miners</p>
+                        <span class="roadmap-badge completed">Completed</span>
+                    </div>
+                </div>
+                <div class="roadmap-item completed">
+                    <div class="roadmap-content">
+                        <h4 class="roadmap-phase">Goal #2</h4>
+                        <p class="roadmap-text">Burn 1,000,000 $GNME</p>
+                        <span class="roadmap-badge completed">Completed</span>
+                    </div>
+                </div>
+                <div class="roadmap-item in-progress">
+                    <div class="roadmap-content">
+                        <h4 class="roadmap-phase">Goal #3</h4>
+                        <p class="roadmap-text">Burn 2,500,000 $GNME</p>
+                        <span class="roadmap-badge in-progress">In Progress</span>
+                    </div>
+                </div>
+                <div class="roadmap-item in-progress">
+                    <div class="roadmap-content">
+                        <h4 class="roadmap-phase">Goal #4</h4>
+                        <p class="roadmap-text">Partnerships</p>
+                        <span class="roadmap-badge in-progress">In Progress</span>
+                    </div>
+                </div>
+                <div class="roadmap-item in-progress">
+                    <div class="roadmap-content">
+                        <h4 class="roadmap-phase">Goal #5</h4>
+                        <p class="roadmap-text">500 Miners</p>
+                        <span class="roadmap-badge in-progress">In Progress</span>
+                    </div>
+                </div>
+                <div class="roadmap-item upcoming">
+                    <div class="roadmap-content">
+                        <h4 class="roadmap-phase">Goal #6</h4>
+                        <p class="roadmap-text">1000 Miners</p>
+                        <span class="roadmap-badge upcoming">Upcoming</span>
+                    </div>
+                </div>
+                <div class="roadmap-item upcoming">
+                    <div class="roadmap-content">
+                        <h4 class="roadmap-phase">Goal #7</h4>
+                        <p class="roadmap-text">Additional Utility for $GNME Holders</p>
+                        <span class="roadmap-badge upcoming">Upcoming</span>
+                    </div>
+                </div>
+                <div class="roadmap-item upcoming">
+                    <div class="roadmap-content">
+                        <h4 class="roadmap-phase">Goal #8</h4>
+                        <p class="roadmap-text">5,000,000 $GNME Burnt</p>
+                        <span class="roadmap-badge upcoming">Upcoming</span>
+                    </div>
+                </div>
+                <div class="roadmap-item upcoming">
+                    <div class="roadmap-content">
+                        <h4 class="roadmap-phase">Goal #9</h4>
+                        <p class="roadmap-text">10,000 Miners</p>
+                        <span class="roadmap-badge upcoming">Upcoming</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="risk-warning-container">
+            <div class="risk-warning">
+                <h4 class="risk-warning-title">⚠️ Risk Warning</h4>
+                <p class="risk-warning-text">
+                    Memecoins and cryptocurrencies are highly volatile and speculative investments. You should be aware that there is a significant risk of in cryptocurrencies. Only invest what you can afford to lose. This is not financial advice. always do your own research.
+                </p>
+            </div>
+        </div>
+
+        
+    </main>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
